@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Velmurugan Travels</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/animation.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-multiselect/bootstrap-multiselect.css" type="text/css">
+  <script src="./js/vel.js"></script>
+  <script type="text/javascript" src="js/bootstrap-multiselect/bootstrap-multiselect.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+		<a class="navbar-brand text-uppercase" href="">Velmurugantravels</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlist">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navlist">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a href="#carouselhome" class="nav-link">Home</a>
+			</li>
+			<li class="nav-item">
+				<a href="#facilities" class="nav-link">Facilities</a>
+			</li>
+			<li class="nav-item">
+				<a href="#place" class="nav-link">Tourist Places</a>
+			</li>
+			<li class="nav-item">
+				<a href="#booking" class="nav-link">Booking</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">About</a>
+			</li>
+		</ul>
+	</div>
+	</nav>
+	<div id="carouselhome" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li class="active" data-target="carouselhome" data-slide-to="0"></li>
+			<li data-target="carouselhome" data-ride="1"></li>
+			<li data-target="carouselhome" data-ride="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="./img/travel_01.jpg" width="1500" height="570" class="container-fluid animated rollIn slow">
+				<div class="carousel-caption">
+					<h3 class="text-uppercase animated jackInTheBox delay-2s">welcome velmurugan travels</h3>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="./img/travel_02.jpg" width="1500" height="570" class="container-fluid animated zoomIn slow">
+				<div class="carousel-caption">
+					<h3 class="animated bounceInDown delay-2s">AND SO...the Adventure BEGINS</h3>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="./img/travel3.jpg" width="1500" height="570" class="container-fluid animated rotateIn slow">
+				<div class="carousel-caption">
+					<h3 class="animated bounceInRight delay-2s">Life begins at the end of your comfort zone</h3>
+				</div>
+			</div>
+		</div>
+		<a href="#carouselhome" class="carousel-control-prev" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</a>
+		<a href="#carouselhome" class="carousel-control-next" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+	</div>
+	<div class="container" id="facilities">
+		<div class="jumbotron">
+			<h2 class="text-uppercase text-center">facilities</h2>
+			<br>
+			<div class="row">
+				<div class="col-sm-3">
+					<h5 class="text-uppercase text-center">travel</h5>
+					<img src="./img/bus.jpg" class="container-fluid img-fluid image">
+				</div>
+				<div class="col-sm-3">
+					<h5 class="text-uppercase text-center">hotels</h5>
+					<img src="./img/hotel.jpg" class="container-fluid img-fluid image">
+				</div>
+				<div class="col-sm-3">
+					<h5 class="text-uppercase text-center">food</h5>
+					<img src="./img/food3.jpg" width="100" height="300" class="container-fluid img-fluid image" >
+				</div>
+				<div class="col-sm-3">
+					<h5 class="text-uppercase text-center">others</h5>
+					<img src="./img/others.jpg" class="container-fluid img-fluid image">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class=" container-fluid bg-dark" id="place" >
+		<br>
+		<h2 class="text-uppercase text-center text-light">touristplaces</h2>
+		<br>
+		<div class="row">
+			<div class="container col-sm-4 bg-light">
+				<h3 class="text-uppercase text-dark text-center">india</h3>
+				<div id="india-tour" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="./img/MUNNAR.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center text-light">munnar</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/DARJEELING.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center text-light">west bengal</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/AGRA.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center">Taj  Mahal, Agra</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/ANDAMAN-NICOBAR-ISLANDS.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center">Andaman</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/COORG.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center">Coorg</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/MANALI.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center">Manali</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/OOTY.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center">Ooty</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/shimla.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center">Shimla</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/jaipur.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center">Jaipur</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/varanasi.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center">varanasi</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/sikim.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center">Sikkim</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/DELHI.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center">DELHI</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/kodaikanal.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center">Kodaikanal</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/JAISALMER.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center">rajastan</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/punjap.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center">punjap</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/MUSSOORIE.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center">Mussoorie</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/PONDICHERRY.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center">Pondicherry</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/TIRUPATI.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center">Tirupati</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/VAISHNO-DEVI.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center">Vaishno Devi</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/ALLEPPEY.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption">
+								<h6 class="text-uppercase text-center">Alleppey</h6>
+							</div>
+						</div>
+					</div>
+					<a href="#india-tour" class="carousel-control-prev" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a href="#india-tour" class="carousel-control-next" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+				</div>
+				<br>
+			</div>
+			<div class="container col-sm-4 bg-light">
+				<h3 class="text-uppercase text-dark text-center ">world</h3>
+				<div id="all-india-tour" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="./img/PARIS.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">Paris</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/NEW-ZEALAND.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">New Zealand</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/LONDON.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">London</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/BORA-BORA.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">Bora Bora</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/GREAT-BARRIER-REEF.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">Great Barrier Reef</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/ICELAND.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">Iceland</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/PAMUKALLE.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">Pamukalle</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/NEW-YORK-CITY.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">New York City</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/overview_1091.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">Barcelona</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/AMSTERDAM.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">Amsterdam</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/COSTA-RICA.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">Costa Rica</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/BALI.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">Bali</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/PHUKET.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">Phuket</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/SAN-FRANCISCO.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">San Francisco</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/SEYCHELLES.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">Seychelles</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/BRITISH-VIRGIN-ISLANDS.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">British Virgin Islands</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/SANTORINI.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">Santorini</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/PRAGUE.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">Prague</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/SYDNEY.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">sydney</h6>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/BANGKOK.jpg" width="50" height="170" class="container-fluid">
+							<div class="carousel-caption" >
+								<h6 class="text-uppercase text-center">Bangkok</h6>
+							</div>
+						</div>
+					</div>
+					<a href="#all-india-tour" class="carousel-control-prev" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a href="#all-india-tour" class="carousel-control-next" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+	<br>
+	<div class="container" id="booking">
+		<h2 class="text-uppercase text-center">booking</h2>
+		<div class="bg-secondary text-center">
+			<form method="post">
+				<div class="row justify-content-center">
+					<div class="col-sm-3">
+						<div class="form-group">
+							<label for="selecttour" class="text-light">Type of Tour: 
+							</label>
+							<select class="form-control text-dark" id="selecttour" onchange="ChangeList()" required="">
+								<option>type Of tourism</option>
+								<option>India</option>
+								<option>World</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="form-group">
+							<label for="tourplace" class="text-light">Place: </label>
+							<select class="text-dark form-control selectpicker" id="tourplace">
+								<option>kavi</option>
+								<option>kavi</option>
+								<option>kavi</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="form-group">
+							<label for="selecttour" class="text-light">Type of hotel: </label>
+							<select class="form-control text-dark">
+								<option>type Of hotel</option>
+								<option>A/C</option>
+								<option>Non A/C</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="form-group">
+							<label for="selecttour" class="text-light">Type of food: </label>
+							<select class="form-control text-dark">
+								<option>type Of food</option>
+								<option>Veg</option>
+								<option>Non veg</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
