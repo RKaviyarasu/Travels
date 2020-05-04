@@ -1,0 +1,53 @@
+.nav-link{
+	font-family: sans-serif !important;
+}
+.carousel-inner .img1{
+	width: 100% !important;
+	height: 100% !important;
+}
+.image:hover{
+	transform: scale(1.4);
+	transition: 0.4s;
+}
+h3{
+	font-family: 'Josefin Sans', sans-serif;
+}
+#booking {
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+    background: linear-gradient(to right, #e8cbc0, #636fa4);
+}
+#conid{
+	background: linear-gradient(#00ccff, #66ffff);
+}
+h2{
+	font-family: 'Baloo Bhaina 2', cursive;
+}
+.rad{
+	border-radius: 10px !important;
+}
+.con-img{
+	position: absolute;
+	filter: blur(1px);
+	width: 350px;
+	height: 300px !important;
+}
+.con-color{
+	background: #1ebba3;
+}
+.con-a{
+	color: #000;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	z-index: 1;
+}
+.con-det{
+	opacity: 0.9;
+}
+.footer-col{
+	background-color: #42b6f5;
+}
+.social-icon{
+	font-size: 30px;
+	color: #fff;
+}
