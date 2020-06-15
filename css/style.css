@@ -52,5 +52,6 @@ h2{
 	color: #fff;
 }
 #btn-amt{
+	list-style-type: none;
 	display: none;
 }
