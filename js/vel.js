@@ -25,3 +25,10 @@ function ChangeList() {
 $(function () {
     $('.selectpicker').selectpicker();
 });
+
+function showAmt(){
+    var element = document.getElementById('btn-book');
+    element.parentNode.removeChild(element);
+    var buttAmt = document.getElementById('btn-amt');
+    buttAmt.style.display = "block";
+}
