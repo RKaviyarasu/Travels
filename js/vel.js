@@ -27,8 +27,20 @@ $(function () {
 });
 
 function showAmt(){
-    var element = document.getElementById('btn-book');
-    element.parentNode.removeChild(element);
-    var buttAmt = document.getElementById('btn-amt');
-    buttAmt.style.display = "block";
+    $("#btn-book").css({"display":"none"});
+    $("#btn-amt").css({"display":"block"});
 }
+
+function fun1() {
+    $("#form-booking").css({"display":"none"});
+    $(".pay-alert").css({"transition":".8s ease-out","display":"block"});
+    $("#btn-amt").css({"display":"none"});
+    $("#btn-book").css({"display":"block"});
+    $(".sucess-Msg").show();
+}
+
+function showNorm(){
+    $(".sucess-Msg").hide();
+    $("#form-booking").css({"display":"block"});
+}
+

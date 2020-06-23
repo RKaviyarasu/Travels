@@ -382,7 +382,7 @@
 	<div class="container-fluid" id="booking">
 		<h2 class="text-uppercase text-center">booking</h2>
 		<div class="container text-center">
-			<form method="post">
+			<form method="post" id="form-booking">
 				<div class="row justify-content-center">
 					<div class="col-sm-3">
 						<div class="form-group">
@@ -424,17 +424,23 @@
 						</div>
 					</div>
 				</div>
-				<div class="row justify-content-center">
-					<div class="col-sm-1 pb-3">
-						<button type="button" class="btn btn-outline-dark" onclick="showAmt()" id="btn-book">Book</button>
+				<div class="row justify-content-center" id="btn-book">
+					<div class="col-md-12 col-sm-1 pb-3">
+						<button type="button" class="btn btn-outline-dark" onclick="showAmt()">Book</button>
 					</div>		
 				</div>
-				<div class="row justify-content-center">
-					<div class="col-sm-2 pb-3">
-						<a href="#" class="btn btn-dark" id="btn-amt">Pay <span class="badge badge-light">&#8377; 10000</span></a>
+				<div class="row justify-content-center" id="btn-amt">
+					<div class="col-md-12 col-sm-1 pb-3">
+						<a class="btn btn-outline-success btn-s" onclick="fun1()">Pay <span class="badge badge-light">&#8377; 10000</span></a>
 					</div>	
 				</div>
 			</form>
+			<div class="row justify-content-center px-4 sucess-Msg">
+				<div class="alert alert-success alert-dismissible pay-alert mx-auto pb-2">
+    				<button type="button" class="close" id="pay-al" onclick="showNorm()">&times;</button>
+    				<strong>Pay Success</strong>
+  				</div>
+			</div>
 		</div>
 	</div>
 	<div class="container-fluid bg-light" id="contact">
